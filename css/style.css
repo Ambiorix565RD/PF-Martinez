@@ -1,0 +1,28 @@
+/*Resets*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Fuente google*/
+@font-face {
+    font-family: 'Andreas';
+    src: url(../assets/fonts/Andreas.ttf);
+}
+
+html{
+    background-color: #2b3035;
+}
+
+.menu-logo img{
+    width: 250px;
+}
+
+.menu{
+    flex-grow: 0;
+}
+
+.logo-img-svg{
+    background-image: url(../assets/img/imagen-menu1.svg);
+}
