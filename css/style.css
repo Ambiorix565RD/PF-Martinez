@@ -15,14 +15,494 @@ html{
     background-color: #2b3035;
 }
 
+/*Nav bar*/
+
 .menu-logo img{
-    width: 250px;
+    width: 150px;
 }
 
 .menu{
     flex-grow: 0;
+    font-weight: 500;
 }
 
 .logo-img-svg{
     background-image: url(../assets/img/imagen-menu1.svg);
 }
+
+.container{
+    padding-left: 0;
+}
+
+/*main index*/
+
+.section-index-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3em;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.section-index-1 div img{
+    width: 30vw;
+}
+
+.front-page-text h1{
+    font-family: 'Andreas'; 
+    font-weight: bold;
+    font-size: 4vw;
+    margin-bottom: 32px;
+}
+
+.front-page-text{
+    font-size: 2vw;
+}
+
+.front-page-text p{
+    margin-left: 32px;
+}
+
+.line-front-page{
+    border-top: 1px solid #8b8b8b;
+  height: 2px;
+  margin: 0 25px 0 25px;
+
+}
+
+div #category{
+
+    font-family: 'Andreas';
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 16px;
+}
+
+.section-instrument-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 3rem;
+}
+
+.button-instrument{
+    font-family: 'Andreas'; 
+    font-weight: 700;
+}
+
+.img-instrument img{
+    width: 320px;
+    height: 320px;
+    border-radius: 5%;
+}
+
+
+.video-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin: 32px;
+}
+
+.video-index h2{
+    width: 560px;
+    text-align: center;
+    font-family: 'Andreas'; 
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 16px;
+}
+
+footer{
+    margin-top: 5rem;
+    background-color: #f8f9fa;
+}
+
+#footer-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+section #footer-img img{
+    width: 150px;
+    height: 150px;    
+    border-radius: 5%;
+}
+
+.section-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3vw 0 3vw;
+    gap: 15vw;
+    text-align: center;
+}
+
+
+.footer-list ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding-left: 0;
+    padding-bottom: 1vw;
+    margin-bottom: 0;
+}
+.section-footer div h3{
+    font-size: 2em;
+}
+
+.section-footer div p{
+    font-size: 2em;
+}
+
+.footer-list ul li{
+    list-style-type: none;
+}
+
+
+/*main Mi Trayectoria*/
+
+.div-trayectory h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Andreas'; 
+    font-weight: 600;
+    font-size: 3vw;
+    margin: 64px;
+}
+
+.front-page-text-trayectory{
+    font-size: 2vw;
+}
+
+.section-trayectory-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3em;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.section-trayectory-1 div img{
+    width: 25vw;
+}
+
+.front-page-text-trayectory h2{
+    margin-bottom: 32px;
+    font-family: 'Andreas'; 
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.front-page-text-trayectory p{
+    margin-left: 32px;
+}
+
+/*main Academy*/
+
+.div-h1 h1{
+
+    text-align: center;
+    justify-content: center;
+    font-family: 'Andreas'; 
+    font-weight: 600;
+    font-size: 3vw;
+    margin: 64px;
+}
+
+.carousel-img{
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+}
+
+.div-text p{
+    text-align: center;
+    justify-content: center;
+    font-size: 2vw; 
+    margin: 32px;
+}
+
+#size-text{
+    font-size: 3vw;
+}
+
+.button-academy{
+    font-family: inherit;
+    font-size: 2vw;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/*main-tienda*/
+
+.section-instrument-tienda{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 3rem;
+}
+
+.section-instrument-tienda .button-instrument{
+    font-family: 'Andreas'; 
+    font-weight: 700;
+    padding: 15px;
+}
+
+div .button-shopp img{
+    height: 25px;
+    width: 25px;
+}
+
+div #category-tienda{
+
+    font-family: 'Andreas';
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 16px;
+}
+div #category-tienda-1{
+
+    font-family: 'Andreas';
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/*main contact*/
+
+.form-contact{
+    margin: 25px;
+}
+
+
+.button-contact-1{
+
+    font-family: inherit;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+
+/*Media query nav bar*/
+@media screen and (max-width: 991px){
+    .menu-items{
+        align-items: center;
+        z-index: 1;
+        width: 100vw;
+        background-color: #f8f9fa;
+    }
+}
+
+/*Media query para tablet
+@media screen and (max-width: 1024px){
+    
+}
+*/
+
+/*Media query para mobile*/
+@media screen and (max-width: 768px) and (min-width: 350px) {
+
+    .section-index-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 3em;
+        border-radius: 20px;
+        overflow: hidden;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    
+    .section-index-1 div img{
+        width: 40vw;
+    }
+    
+    .front-page-text h1{
+        font-family: 'Andreas'; 
+        font-weight: bold;
+        font-size: 4vw;
+        margin-bottom: 32px;
+    }
+    
+    .front-page-text{
+        font-size: 2vw;
+    }
+    
+    .front-page-text p{
+        margin-left: 32px;
+    }
+    
+    .line-front-page{
+        border-top: 1px solid #8b8b8b;
+      height: 2px;
+      margin: 0 25px 0 25px;
+    
+    }
+    
+    div #category{
+    
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 1rem;
+        margin-bottom: 16px;
+    }
+    
+    .section-instrument-index{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 6rem;
+        margin: 3rem;
+    }
+    
+    .button-instrument{
+        font-family: 'Andreas'; 
+        font-weight: 700;
+    }
+    
+    .img-instrument img{
+        width: 220px;
+        height: 220px;
+        border-radius: 5%;
+    }
+    
+    
+    .video-index{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 32px;
+    }
+
+    .video-index iframe{
+
+        width: 300px;
+        height: 200px;
+    }
+    
+    .video-index h2{
+        width: 250px;
+        text-align: center;
+        font-family: 'Andreas'; 
+        font-weight: bold;
+        font-size: 4vw;
+        margin-bottom: 16px;
+    }
+    
+    footer{
+        margin-top: 5rem;
+        background-color: #f8f9fa;
+    }
+    
+    #footer-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    section #footer-img img{
+        width: 100px;
+        height: 100px;    
+        border-radius: 5%;
+    }
+    
+    .section-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px 0 10px;
+        gap: 10vw;
+        text-align: center;
+    }
+    
+    
+    .footer-list ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+        padding-left: 0;
+        padding-bottom: 1vw;
+        margin-bottom: 0;
+    }
+    .section-footer div h3{
+        font-size: 2em;
+    }
+    
+    .section-footer div p{
+        font-size: 2em;
+    }
+    
+    .footer-list ul li{
+        list-style-type: none;
+    }
+    
+    /*main tienda*/
+
+    
+.section-instrument-tienda{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin: 3rem;
+}
+
+
+}
+
