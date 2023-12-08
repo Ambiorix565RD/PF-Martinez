@@ -49,10 +49,12 @@ html{
     
 }
 
+/*Tamaño de la imagen portada*/
 .section-index-1 div img{
     width: 30vw;
 }
 
+/*Tamaño de titulo portada*/
 .front-page-text h1{
     font-family: 'Andreas'; 
     font-weight: bold;
@@ -60,14 +62,17 @@ html{
     margin-bottom: 32px;
 }
 
+/*Tamaño del contenido de la portada*/
 .front-page-text{
     font-size: 2vw;
 }
 
+/*margen del texto de la portada*/
 .front-page-text p{
     margin-left: 32px;
 }
 
+/*linea divisora*/
 .line-front-page{
     border-top: 1px solid #8b8b8b;
   height: 2px;
@@ -75,6 +80,7 @@ html{
 
 }
 
+/*Titulo de categorias*/
 div #category{
 
     font-family: 'Andreas';
@@ -84,6 +90,7 @@ div #category{
     padding-top: 1rem;
     margin-bottom: 16px;
 }
+
 
 .section-instrument-index{
     display: grid;
@@ -95,11 +102,13 @@ div #category{
     margin: 3rem;
 }
 
+/*botones de las tarjetas*/
 .button-instrument{
     font-family: 'Andreas'; 
     font-weight: 700;
 }
 
+/*Tamaño de las imagenes*/
 .img-instrument img{
     width: 320px;
     height: 320px;
@@ -115,6 +124,7 @@ div #category{
     margin: 32px;
 }
 
+/*Tamaño titulo del video*/
 .video-index h2{
     width: 560px;
     text-align: center;
@@ -124,10 +134,13 @@ div #category{
     margin-bottom: 16px;
 }
 
+
+/*margenes del footer*/
 footer{
     margin-top: 5rem;
     background-color: #f8f9fa;
 }
+
 
 #footer-img{
     display: flex;
@@ -137,6 +150,7 @@ footer{
     padding: 1rem;
 }
 
+/*Tamaño de la imagen del footer*/
 section #footer-img img{
     width: 150px;
     height: 150px;    
@@ -153,7 +167,7 @@ section #footer-img img{
     text-align: center;
 }
 
-
+/*Position listas de redes sociales*/
 .footer-list ul{
     display: flex;
     flex-direction: row;
@@ -164,14 +178,18 @@ section #footer-img img{
     padding-bottom: 1vw;
     margin-bottom: 0;
 }
+
+/*Tamaño titulos del footer*/
 .section-footer div h3{
     font-size: 2em;
 }
 
+/*Tamaño de los textos del footer*/
 .section-footer div p{
     font-size: 2em;
 }
 
+/*Quitar viñetas de las listas*/
 .footer-list ul li{
     list-style-type: none;
 }
@@ -179,6 +197,7 @@ section #footer-img img{
 
 /*main Mi Trayectoria*/
 
+/*Titulo*/
 .div-trayectory h1{
     text-align: center;
     justify-content: center;
@@ -188,6 +207,7 @@ section #footer-img img{
     margin: 64px;
 }
 
+/*Tamaño del contenido de las tarjetas*/
 .front-page-text-trayectory{
     font-size: 2vw;
 }
@@ -203,10 +223,12 @@ section #footer-img img{
     
 }
 
+/*tamaño de las imagenes*/
 .section-trayectory-1 div img{
     width: 25vw;
 }
 
+/*Tamaño de las subtitulos*/
 .front-page-text-trayectory h2{
     margin-bottom: 32px;
     font-family: 'Andreas'; 
@@ -214,27 +236,30 @@ section #footer-img img{
     font-size: 3vw;
 }
 
+/*Margenes del texto de las tarjetas*/
 .front-page-text-trayectory p{
     margin-left: 32px;
 }
 
 /*main Academy*/
 
+/*Titulo*/
 .div-h1 h1{
-
     text-align: center;
     justify-content: center;
     font-family: 'Andreas'; 
     font-weight: 600;
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 64px;
 }
 
+/*Tamaño del contenido del carrusel*/
 .carousel-img{
     width: 100%;
     height: 500px;
 }
 
+/*Tamaño de las imagenes del carrusel*/
 .carousel-img img{
     width: 100%;
     height: 100%;
@@ -242,24 +267,28 @@ section #footer-img img{
     display: block;
 }
 
+
 .div-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 32px;
+    margin: 32px 0 64px 0;
 }
 
+/*Tamaño y margenes del texto*/
 .div-text p{
     text-align: center;
     justify-content: center;
     font-size: 2vw; 
-    margin: 32px;
+    margin: 32px 32px 64px 32px;
 }
 
+/*Tamaño del ID del texto*/
 #size-text{
     font-size: 3vw;
 }
 
+/*Boton*/
 .button-academy{
     font-family: inherit;
     font-size: 2vw;
@@ -279,17 +308,20 @@ section #footer-img img{
     margin: 3rem;
 }
 
+/*botones de las imagenes*/
 .section-instrument-tienda .button-instrument{
     font-family: 'Andreas'; 
     font-weight: 700;
     padding: 15px;
 }
 
+/*tamaño de las imagenes*/
 div .button-shopp img{
     height: 25px;
     width: 25px;
 }
 
+/*Titulos de la pagina*/
 div #category-tienda{
 
     font-family: 'Andreas';
@@ -299,6 +331,9 @@ div #category-tienda{
     padding-top: 3rem;
     margin-bottom: 16px;
 }
+
+
+/*padding aplicado a el titulo de accesorios*/
 div #category-tienda-1{
 
     font-family: 'Andreas';
@@ -310,11 +345,30 @@ div #category-tienda-1{
 
 /*main contact*/
 
+.div-h1-contacto h1{
+
+    font-family: 'Andreas';
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 16px;
+}
+
+.div-h1-contacto-1 p{
+
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+    margin: 0 4em 0 4em;
+}
+
+/*margenes*/
 .form-contact{
     margin: 25px;
 }
 
-
+/*Boton*/
 .button-contact-1{
 
     font-family: inherit;
@@ -323,6 +377,9 @@ div #category-tienda-1{
     border-radius: 25px;
 }
 
+
+
+/*Media Query todas las paginas*/
 
 /*Media query nav bar*/
 @media screen and (max-width: 1024px){
@@ -498,63 +555,150 @@ div #category-tienda-1{
         list-style-type: none;
     }
     
-/*main Mi Trayectoria*/
+    /*main Mi Trayectoria*/
 
-.div-trayectory h1{
-    text-align: center;
-    justify-content: center;
-    font-family: 'Andreas'; 
-    font-weight: 600;
-    font-size: 7vw;
-    margin: 32px;
-}
+    .div-trayectory h1{
+        text-align: center;
+        justify-content: center;
+        font-family: 'Andreas'; 
+        font-weight: 600;
+        font-size: 7vw;
+        margin: 32px;
+    }
 
-.front-page-text-trayectory{
-    font-size: 4vw;
-}
+    .front-page-text-trayectory{
+        font-size: 4vw;
+    }
 
-.section-trayectory-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3em;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    
-}
+    .section-trayectory-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 3em;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        
+    }
 
-.section-trayectory-1 div img{
-    width: 55vw;
-    border-radius: 25px;
-}
+    .section-trayectory-1 div img{
+        width: 55vw;
+        border-radius: 25px;
+    }
 
-.front-page-text-trayectory h2{
-    margin: 32px 0 32px 0;
-    font-family: 'Andreas'; 
-    font-weight: bold;
-    font-size: 6vw;
-}
+    .front-page-text-trayectory h2{
+        margin: 32px 0 32px 0;
+        font-family: 'Andreas'; 
+        font-weight: bold;
+        font-size: 6vw;
+    }
 
-.front-page-text-trayectory p{
-    justify-content: center;
-    text-align: center;
-    margin: 16px 0 16px 0;
-}
+    .front-page-text-trayectory p{
+        justify-content: center;
+        text-align: center;
+        margin: 16px 0 16px 0;
+    }
+
+    /*main Academy*/
+
+    .div-h1 h1{
+
+        text-align: center;
+        justify-content: center;
+        font-family: 'Andreas'; 
+        font-weight: 600;
+        font-size: 4vw;
+        margin: 32px 0 32px 0;
+    }
+
+    .carousel-img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        display: block;
+    }
+
+    .div-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 32px 0px 0px 0px;
+    }
+
+    .div-text p{
+        text-align: center;
+        justify-content: center;
+        font-size: 3vw; 
+        margin: 16px 16px 54px 16px;
+    }
+
+    #size-text{
+        font-size: 3vw;
+    }
+
+    .button-academy{
+        font-family: inherit;
+        font-size: 3vw;
+        padding: 20px;
+        border-radius: 20px;
+    }
     
     /*main tienda*/
 
+        
+    .section-instrument-tienda{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 6rem;
+        margin: 3rem;
+    }
+
+    div #category-tienda{
+
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
     
-.section-instrument-tienda{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    gap: 6rem;
-    margin: 3rem;
-}
+    
+    div #category-tienda-1{
+    
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 2rem;
+    }
 
+    /*main contacto*/
 
+    .div-h1-contacto h1{
+
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 2rem;
+        margin-bottom: 16px;
+    }
+    
+    .div-h1-contacto-1 p{
+    
+        font-size: 4vw;
+        text-align: center;
+        justify-content: center;
+        margin: 0 1em 0 1em;
+    }
 }
 
