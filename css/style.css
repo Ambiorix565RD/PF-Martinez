@@ -197,8 +197,6 @@ section #footer-img img{
     flex-direction: row;
     align-items: center;
     margin: 3em;
-    border-radius: 20px;
-    overflow: hidden;
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -327,7 +325,7 @@ div #category-tienda-1{
 
 
 /*Media query nav bar*/
-@media screen and (max-width: 991px){
+@media screen and (max-width: 1024px){
     .menu-items{
         align-items: center;
         z-index: 1;
@@ -345,11 +343,16 @@ div #category-tienda-1{
 /*Media query para mobile*/
 @media screen and (max-width: 768px){
 
+    .menu-logo img{
+        width: 80px;
+        border-radius: 25px;
+    }
+
     .section-index-1{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        margin: 3em;
+        margin: 2em 1em 2em 1em;
         border-radius: 20px;
         overflow: hidden;
         text-align: center;
@@ -359,22 +362,25 @@ div #category-tienda-1{
     }
     
     .section-index-1 div img{
-        width: 40vw;
+        border-radius: 20px;
+        width: 45vw;
+    }
+    .front-page-text{
+        margin-top: 32px;
     }
     
     .front-page-text h1{
+        text-align: center;
+        justify-content: center;
         font-family: 'Andreas'; 
         font-weight: bold;
-        font-size: 4vw;
-        margin-bottom: 32px;
+        font-size: 6vw;
+        margin-bottom: 16px;
     }
-    
-    .front-page-text{
-        font-size: 2vw;
-    }
-    
+
     .front-page-text p{
-        margin-left: 32px;
+        font-size: 4vw;
+        margin: 0 0 16px 16px;
     }
     
     .line-front-page{
@@ -388,7 +394,7 @@ div #category-tienda-1{
     
         font-family: 'Andreas';
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: center;
         padding-top: 1rem;
         margin-bottom: 16px;
@@ -431,11 +437,12 @@ div #category-tienda-1{
     
     .video-index h2{
         width: 250px;
+        justify-content: center;
         text-align: center;
-        font-family: 'Andreas'; 
+        font-family: 'Andreas';
         font-weight: bold;
-        font-size: 4vw;
-        margin-bottom: 16px;
+        font-size: 6vw;
+        margin: 1rem 2rem 1rem 2rem;
     }
     
     footer{
@@ -452,9 +459,9 @@ div #category-tienda-1{
     }
     
     section #footer-img img{
-        width: 100px;
-        height: 100px;    
-        border-radius: 5%;
+        width: 80px;
+        height: 80px;    
+        border-radius: 25px;
     }
     
     .section-footer{
@@ -478,17 +485,62 @@ div #category-tienda-1{
         padding-bottom: 1vw;
         margin-bottom: 0;
     }
+
     .section-footer div h3{
-        font-size: 2em;
+        font-size: 1em;
     }
     
     .section-footer div p{
-        font-size: 2em;
+        font-size: 1em;
     }
     
     .footer-list ul li{
         list-style-type: none;
     }
+    
+/*main Mi Trayectoria*/
+
+.div-trayectory h1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Andreas'; 
+    font-weight: 600;
+    font-size: 7vw;
+    margin: 32px;
+}
+
+.front-page-text-trayectory{
+    font-size: 4vw;
+}
+
+.section-trayectory-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.section-trayectory-1 div img{
+    width: 55vw;
+    border-radius: 25px;
+}
+
+.front-page-text-trayectory h2{
+    margin: 32px 0 32px 0;
+    font-family: 'Andreas'; 
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+.front-page-text-trayectory p{
+    justify-content: center;
+    text-align: center;
+    margin: 16px 0 16px 0;
+}
     
     /*main tienda*/
 
