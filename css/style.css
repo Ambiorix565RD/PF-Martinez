@@ -448,6 +448,17 @@ div #category-tienda-1{
         border-radius: 5%;
     }
 
+     /*main Mi Trayectoria*/
+
+     .div-trayectory h1{
+        text-align: center;
+        justify-content: center;
+        font-family: 'Andreas'; 
+        font-weight: 600;
+        font-size: 4vw;
+        margin: 32px;
+    }
+
 
         /*main tienda*/
     .section-instrument-tienda{
@@ -507,7 +518,6 @@ div #category-tienda-1{
         margin: 3rem 3rem 3rem 5rem;
     }
 
-
     
     div .img3-tablet{
         grid-column: span 2;
@@ -525,6 +535,17 @@ div #category-tienda-1{
         width: 30vw;
         height: 30vw;
         border-radius: 5%;
+    }
+
+    /*main Mi Trayectoria*/
+
+    .div-trayectory h1{
+        text-align: center;
+        justify-content: center;
+        font-family: 'Andreas'; 
+        font-weight: 600;
+        font-size: 4vw;
+        margin: 32px;
     }
 
 
