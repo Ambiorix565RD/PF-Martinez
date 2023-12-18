@@ -1,5 +1,6 @@
 /*Resets*/
 *{
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,11 +18,14 @@ html{
 
 /*Nav bar*/
 
+
+
 .menu-logo img{
     width: 150px;
 }
 
 .menu{
+    
     flex-grow: 0;
     font-weight: 500;
 }
@@ -31,12 +35,14 @@ html{
 }
 
 .container{
+    
     padding-left: 0;
 }
 
 /*main index*/
 
 .section-index-1{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -91,6 +97,12 @@ div #category{
     margin-bottom: 16px;
 }
 
+.align-items{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 
 .section-instrument-index{
     display: grid;
@@ -115,6 +127,9 @@ div #category{
     border-radius: 5%;
 }
 
+.img-instrument h3{
+    margin-top: 0.5rem;
+}
 
 .video-index{
     display: flex;
@@ -137,7 +152,7 @@ div #category{
 
 /*margenes del footer*/
 footer{
-    margin-top: 5rem;
+    margin-top: 5rem;   
     background-color: #f8f9fa;
 }
 
@@ -381,21 +396,140 @@ div #category-tienda-1{
 
 /*Media Query todas las paginas*/
 
-/*Media query nav bar*/
-@media screen and (max-width: 1024px){
-    .menu-items{
-        align-items: center;
-        z-index: 1;
-        width: 100vw;
-        background-color: #f8f9fa;
-    }
+/*Media query */
+
+
+
+
+ /*Media query nav bar*/
+ @media screen and (max-width: 991px){
+
+ .menu-items{
+
+    align-items: center;
+    z-index: 1;
+    width: 100vw;
+    background-color: #f8f9fa;
 }
 
-/*Media query para tablet
-@media screen and (max-width: 1024px){
-    
 }
-*/
+
+/*Media query para monitores pequeños*/
+@media screen and (max-width: 1600px) and (min-width: 1025px) {
+
+    .align-items{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section-instrument-index{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 5rem;
+        margin: 3rem 3rem 3rem 5rem;
+    }
+
+
+    
+    div .img3-tablet{
+        grid-column: span 2;
+        grid-row: auto;
+        text-align: center;
+        margin-right: 32px;
+    }
+
+    .img3-tablet p{
+        width: 500px;
+    }
+
+    /*Tamaño de las imagenes*/
+    .img-instrument img{
+        width: 30vw;
+        height: 30vw;
+        border-radius: 5%;
+    }
+
+
+        /*main tienda*/
+    .section-instrument-tienda{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 6rem;
+        margin: 3rem;
+    }
+
+}
+
+
+/*Media query para tablet*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+
+    /*main index*/
+
+    .align-items{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section-instrument-index{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 5rem;
+        margin: 3rem 3rem 3rem 5rem;
+    }
+
+
+    
+    div .img3-tablet{
+        grid-column: span 2;
+        grid-row: auto;
+        text-align: center;
+        margin-right: 32px;
+    }
+
+    .img3-tablet p{
+        width: 500px;
+    }
+
+    /*Tamaño de las imagenes*/
+    .img-instrument img{
+        width: 30vw;
+        height: 30vw;
+        border-radius: 5%;
+    }
+
+
+        /*main tienda*/
+    .section-instrument-tienda{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 6rem;
+        margin: 3rem;
+    }
+
+
+
+
+}
+
 
 /*Media query para mobile*/
 @media screen and (max-width: 768px){
@@ -403,6 +537,13 @@ div #category-tienda-1{
     .menu-logo img{
         width: 80px;
         border-radius: 25px;
+    }
+
+    .align-items{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
     }
 
     .section-index-1{
@@ -420,7 +561,7 @@ div #category-tienda-1{
     
     .section-index-1 div img{
         border-radius: 20px;
-        width: 45vw;
+        width: 75%;
     }
     .front-page-text{
         margin-top: 32px;
@@ -463,43 +604,69 @@ div #category-tienda-1{
         align-items: center;
         justify-items: center;
         justify-content: center;
-        gap: 6rem;
+        gap: 5rem;
         margin: 3rem;
     }
-    
-    .button-instrument{
-        font-family: 'Andreas'; 
-        font-weight: 700;
+
+    .img-instrument{
+        position: relative;
+        width: 100%;
     }
     
     .img-instrument img{
-        width: 220px;
-        height: 220px;
+        width: 85%;
+        height: 85%;
         border-radius: 5%;
     }
     
+    .img-instrument h3{
+        font-size: 6vw;
+    }
+
+    .img-instrument p{
+        font-size: 3.5vw;
+    }
+
+    .button-instrument{
+        font-family: 'Andreas'; 
+        font-weight: 700;
+        font-size: 4vw;
+        padding: 0.80rem;
+        border-radius: 15px;
+    }
     
     .video-index{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         margin: 32px;
     }
 
+    .margin-video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+
+
     .video-index iframe{
 
-        width: 300px;
-        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
     
     .video-index h2{
-        width: 250px;
+        width: auto;
         justify-content: center;
         text-align: center;
         font-family: 'Andreas';
         font-weight: bold;
         font-size: 6vw;
-        margin: 1rem 2rem 1rem 2rem;
     }
     
     footer{
@@ -700,5 +867,7 @@ div #category-tienda-1{
         justify-content: center;
         margin: 0 1em 0 1em;
     }
+
+
 }
 
