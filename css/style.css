@@ -396,11 +396,6 @@ div #category-tienda-1{
 
 /*Media Query todas las paginas*/
 
-/*Media query */
-
-
-
-
  /*Media query nav bar*/
  @media screen and (max-width: 991px){
 
@@ -415,7 +410,7 @@ div #category-tienda-1{
 }
 
 /*Media query para monitores pequeños*/
-@media screen and (max-width: 1600px) and (min-width: 1025px) {
+@media screen and (max-width: 1600px) and (min-width: 1025px){
 
     .align-items{
         align-items: center;
@@ -434,8 +429,6 @@ div #category-tienda-1{
         gap: 5rem;
         margin: 3rem 3rem 3rem 5rem;
     }
-
-
     
     div .img3-tablet{
         grid-column: span 2;
@@ -466,6 +459,27 @@ div #category-tienda-1{
         gap: 6rem;
         margin: 3rem;
     }
+
+     /*main contacto*/
+
+     .div-h1-contacto h1{
+
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 3vw;
+        text-align: center;
+        padding-top: 2rem;
+        margin-bottom: 16px;
+    }
+    
+    .div-h1-contacto-1 p{
+    
+        font-size: 2vw;
+        text-align: center;
+        justify-content: center;
+        margin: 0 1em 0 1em;
+    }
+    
 
 }
 
@@ -525,6 +539,25 @@ div #category-tienda-1{
         margin: 3rem;
     }
 
+     /*main contacto*/
+
+    .div-h1-contacto h1{
+
+        font-family: 'Andreas';
+        font-weight: bold;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 2rem;
+        margin-bottom: 16px;
+    }
+    
+    .div-h1-contacto-1 p{
+    
+        font-size: 2vw;
+        text-align: center;
+        justify-content: center;
+        margin: 0 1em 0 1em;
+    }
 
 
 
@@ -854,7 +887,7 @@ div #category-tienda-1{
 
         font-family: 'Andreas';
         font-weight: bold;
-        font-size: 7vw;
+        font-size: 4vw;
         text-align: center;
         padding-top: 2rem;
         margin-bottom: 16px;
@@ -862,7 +895,7 @@ div #category-tienda-1{
     
     .div-h1-contacto-1 p{
     
-        font-size: 4vw;
+        font-size: 3vw;
         text-align: center;
         justify-content: center;
         margin: 0 1em 0 1em;
@@ -870,4 +903,5 @@ div #category-tienda-1{
 
 
 }
+
 
