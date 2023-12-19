@@ -114,21 +114,25 @@ div #category{
     margin: 3rem;
 }
 
-/*botones de las tarjetas*/
-.button-instrument{
-    font-family: 'Andreas'; 
-    font-weight: 700;
+.img-instrument-index{
+    width: 382px;
 }
 
 /*Tamaño de las imagenes*/
-.img-instrument img{
+.img-instrument-index img{
     width: 320px;
     height: 320px;
     border-radius: 5%;
 }
 
-.img-instrument h3{
+.img-instrument-index h3{
     margin-top: 0.5rem;
+}
+
+/*botones de las tarjetas*/
+.button-instrument{
+    font-family: 'Andreas'; 
+    font-weight: 700;
 }
 
 .video-index{
@@ -323,6 +327,16 @@ section #footer-img img{
     margin: 3rem;
 }
 
+.img-instrument-tienda{
+    width: 320px;
+}
+
+.img-instrument-tienda img{
+    width: 320px;
+    height: 320px;
+    border-radius: 5%;
+}
+
 /*botones de las imagenes*/
 .section-instrument-tienda .button-instrument{
     font-family: 'Andreas'; 
@@ -438,11 +452,11 @@ div #category-tienda-1{
     }
 
     .img3-tablet p{
-        width: 500px;
+        width: 382px;
     }
 
     /*Tamaño de las imagenes*/
-    .img-instrument img{
+    .img-instrument-index img{
         width: 30vw;
         height: 30vw;
         border-radius: 5%;
@@ -469,6 +483,16 @@ div #category-tienda-1{
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
+    }
+
+    .img-instrument-tienda{
+        width: 320px;
+    }
+
+    .img-instrument-tienda img{
+        width: 320px;
+        height: 320px;
+        border-radius: 5%;
     }
 
      /*main contacto*/
@@ -518,6 +542,17 @@ div #category-tienda-1{
         margin: 3rem 3rem 3rem 5rem;
     }
 
+    .img-instrument-index{
+        width: auto;
+        height: auto;
+    }
+    
+    .img-instrument-index img{
+        width: 220px;
+        height: 220px;
+        border-radius: 5%;
+    }
+    
     
     div .img3-tablet{
         grid-column: span 2;
@@ -527,11 +562,11 @@ div #category-tienda-1{
     }
 
     .img3-tablet p{
-        width: 500px;
+        width: 382px;
     }
 
     /*Tamaño de las imagenes*/
-    .img-instrument img{
+    .img-instrument-index img{
         width: 30vw;
         height: 30vw;
         border-radius: 5%;
@@ -558,6 +593,16 @@ div #category-tienda-1{
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
+    }
+
+    .img-instrument-tienda{
+        width: auto;
+    }
+
+    .img-instrument-tienda img{
+        width: 320px;
+        height: 320px;
+        border-radius: 5%;
     }
 
      /*main contacto*/
@@ -617,6 +662,7 @@ div #category-tienda-1{
         border-radius: 20px;
         width: 75%;
     }
+
     .front-page-text{
         margin-top: 32px;
     }
@@ -662,22 +708,24 @@ div #category-tienda-1{
         margin: 3rem;
     }
 
-    .img-instrument{
-        position: relative;
-        width: 100%;
+    .img-instrument-index{
+        width: auto;
+        height: auto;
     }
     
-    .img-instrument img{
-        width: 85%;
-        height: 85%;
+    .img-instrument-index img{
+        width: 220px;
+        height: 220px;
         border-radius: 5%;
     }
+
     
-    .img-instrument h3{
+    .img-instrument-index h3{
         font-size: 6vw;
     }
 
-    .img-instrument p{
+    .img-instrument-index p{
+        width: 220px;
         font-size: 3.5vw;
     }
 
@@ -900,6 +948,17 @@ div #category-tienda-1{
         font-size: 6vw;
         text-align: center;
         padding-top: 2rem;
+    }
+
+    .img-instrument-tienda{
+
+        width: auto;
+    }
+
+    .img-instrument-tienda img{
+        width: 320px;
+        height: 320px;
+        border-radius: 5%;
     }
 
     /*main contacto*/
