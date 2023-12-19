@@ -130,7 +130,8 @@ div #category{
 }
 
 /*botones de las tarjetas*/
-.button-instrument{
+.button-instrument-index{
+    background-color: #0048b1;
     font-family: 'Andreas'; 
     font-weight: 700;
 }
@@ -338,7 +339,8 @@ section #footer-img img{
 }
 
 /*botones de las imagenes*/
-.section-instrument-tienda .button-instrument{
+.section-instrument-tienda .button-instrument-tienda{
+    background-color: #0048b1;
     font-family: 'Andreas'; 
     font-weight: 700;
     padding: 15px;
@@ -709,13 +711,13 @@ div #category-tienda-1{
     }
 
     .img-instrument-index{
-        width: auto;
+        width: 250px;
         height: auto;
     }
     
     .img-instrument-index img{
-        width: 220px;
-        height: 220px;
+        width: 250px;
+        height: 250px;
         border-radius: 5%;
     }
 
@@ -725,11 +727,11 @@ div #category-tienda-1{
     }
 
     .img-instrument-index p{
-        width: 220px;
+        width: 250px;
         font-size: 3.5vw;
     }
 
-    .button-instrument{
+    .button-instrument-index{
         font-family: 'Andreas'; 
         font-weight: 700;
         font-size: 4vw;
