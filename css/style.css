@@ -55,13 +55,24 @@ html{
     
 }
 
+/*titulo portada*/
+.section-index-titulo h1{
+
+    color: #0048b1;
+    text-align: center;
+    font-family: 'Andreas'; 
+    font-weight: bold;
+    font-size: 4vw;
+    margin: 32px 0 32px 0;
+}
+
 /*Tamaño de la imagen portada*/
 .section-index-1 div img{
     width: 30vw;
 }
 
 /*Tamaño de titulo portada*/
-.front-page-text h1{
+.front-page-text h2{
     font-family: 'Andreas'; 
     font-weight: bold;
     font-size: 4vw;
@@ -181,10 +192,21 @@ section #footer-img img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-self: start;
     padding: 0 3vw 0 3vw;
     gap: 15vw;
     text-align: center;
+}
+
+
+/*Tamaño titulos del footer*/
+.section-footer div h3{
+    font-size: 2em;
+}
+
+/*Tamaño de los textos del footer*/
+.section-footer div p{
+    font-size: 2em;
 }
 
 /*Position listas de redes sociales*/
@@ -199,15 +221,6 @@ section #footer-img img{
     margin-bottom: 0;
 }
 
-/*Tamaño titulos del footer*/
-.section-footer div h3{
-    font-size: 2em;
-}
-
-/*Tamaño de los textos del footer*/
-.section-footer div p{
-    font-size: 2em;
-}
 
 /*Quitar viñetas de las listas*/
 .footer-list ul li{
@@ -219,12 +232,14 @@ section #footer-img img{
 
 /*Titulo*/
 .div-trayectory h1{
+    
+    color: #0048b1;
     text-align: center;
     justify-content: center;
     font-family: 'Andreas'; 
     font-weight: 600;
-    font-size: 3vw;
-    margin: 64px;
+    font-size: 4vw;
+    margin: 64px;  
 }
 
 /*Tamaño del contenido de las tarjetas*/
@@ -265,6 +280,7 @@ section #footer-img img{
 
 /*Titulo*/
 .div-h1 h1{
+    color: #0048b1;
     text-align: center;
     justify-content: center;
     font-family: 'Andreas'; 
@@ -303,13 +319,14 @@ section #footer-img img{
     margin: 32px 32px 64px 32px;
 }
 
-/*Tamaño del ID del texto*/
-#size-text{
+/*Tamaño del h2*/
+.div-text div h2{
     font-size: 3vw;
 }
 
 /*Boton*/
 .button-academy{
+    background-color: #0048b1;
     font-family: inherit;
     font-size: 2vw;
     padding: 30px;
@@ -321,11 +338,41 @@ section #footer-img img{
 .section-instrument-tienda{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    align-items: center;
+    align-items: end;
     justify-items: center;
     justify-content: center;
     gap: 6rem;
     margin: 3rem;
+}
+
+#titulo-tienda{
+    color: #0048b1;
+    font-family: 'Andreas';
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 16px;
+}
+
+/*Titulos de la pagina*/
+div #category-tienda{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 16px;
+}
+
+
+/*padding aplicado a el titulo de accesorios*/
+div #category-tienda-1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .img-instrument-tienda{
@@ -348,42 +395,31 @@ section #footer-img img{
 
 /*tamaño de las imagenes*/
 div .button-shopp img{
+   
     height: 25px;
     width: 25px;
 }
 
-/*Titulos de la pagina*/
-div #category-tienda{
 
-    font-family: 'Andreas';
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    padding-top: 3rem;
-    margin-bottom: 16px;
-}
-
-
-/*padding aplicado a el titulo de accesorios*/
-div #category-tienda-1{
-
-    font-family: 'Andreas';
-    font-weight: bold;
-    font-size: 3vw;
-    text-align: center;
-    padding-top: 2rem;
-}
 
 /*main contact*/
 
 .div-h1-contacto h1{
-
+    color:#0048b1;
     font-family: 'Andreas';
     font-weight: bold;
     font-size: 2vw;
     text-align: center;
-    padding-top: 1rem;
-    margin-bottom: 16px;
+    padding-top: 2rem;
+    margin-bottom: 32px;
+}
+
+.div-h2-contacto h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 4rem;
 }
 
 .div-h1-contacto-1 p{
@@ -471,7 +507,7 @@ div #category-tienda-1{
         justify-content: center;
         font-family: 'Andreas'; 
         font-weight: 600;
-        font-size: 4vw;
+        font-size: 3vw;
         margin: 32px;
     }
 
@@ -480,11 +516,38 @@ div #category-tienda-1{
     .section-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        align-items: end;
         justify-items: center;
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
+    }
+
+    #titulo-tienda{
+        color: #0048b1;
+        font-family: 'Andreas';
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+
+    div #category-tienda{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+    
+    
+    div #category-tienda-1{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 2rem;
     }
 
     .img-instrument-tienda{
@@ -500,13 +563,21 @@ div #category-tienda-1{
      /*main contacto*/
 
      .div-h1-contacto h1{
-
+        color:#0048b1;
         font-family: 'Andreas';
         font-weight: bold;
         font-size: 3vw;
         text-align: center;
         padding-top: 2rem;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .div-h2-contacto h2{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: 4rem;
     }
     
     .div-h1-contacto-1 p{
@@ -514,7 +585,7 @@ div #category-tienda-1{
         font-size: 2vw;
         text-align: center;
         justify-content: center;
-        margin: 0 1em 0 1em;
+        margin: 0 4em 0 4em;
     }
     
 
@@ -590,11 +661,38 @@ div #category-tienda-1{
     .section-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        align-items: end;
         justify-items: center;
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
+    }
+
+    #titulo-tienda{
+        color: #0048b1;
+        font-family: 'Andreas';
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+
+    div #category-tienda{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+    
+    
+    div #category-tienda-1{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 2rem;
     }
 
     .img-instrument-tienda{
@@ -609,14 +707,22 @@ div #category-tienda-1{
 
      /*main contacto*/
 
-    .div-h1-contacto h1{
-
+     .div-h1-contacto h1{
+        color:#0048b1;
         font-family: 'Andreas';
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 3vw;
         text-align: center;
         padding-top: 2rem;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .div-h2-contacto h2{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        text-align: center;
+        padding-top: 4rem;
     }
     
     .div-h1-contacto-1 p{
@@ -624,9 +730,8 @@ div #category-tienda-1{
         font-size: 2vw;
         text-align: center;
         justify-content: center;
-        margin: 0 1em 0 1em;
+        margin: 0 4em 0 4em;
     }
-
 
 
 }
@@ -645,6 +750,16 @@ div #category-tienda-1{
         text-align: center;
         justify-content: center;
         justify-items: center;
+    }
+
+    .section-index-titulo h1{
+
+        color: #0048b1;
+        text-align: center;
+        font-family: 'Andreas'; 
+        font-weight: bold;
+        font-size: 7vw;
+        margin: 32px 0 32px 0;
     }
 
     .section-index-1{
@@ -669,7 +784,7 @@ div #category-tienda-1{
         margin-top: 32px;
     }
     
-    .front-page-text h1{
+    .front-page-text h2{
         text-align: center;
         justify-content: center;
         font-family: 'Andreas'; 
@@ -874,12 +989,14 @@ div #category-tienda-1{
 
     .div-h1 h1{
 
+        color: #0048b1;
         text-align: center;
         justify-content: center;
         font-family: 'Andreas'; 
         font-weight: 600;
-        font-size: 4vw;
-        margin: 32px 0 32px 0;
+        font-size: 5vw;
+        margin: 64px 0 0 0;
+        
     }
 
     .carousel-img{
@@ -908,8 +1025,8 @@ div #category-tienda-1{
         margin: 16px 16px 54px 16px;
     }
 
-    #size-text{
-        font-size: 3vw;
+    .div-text div h2{
+        font-size: 4vw;
     }
 
     .button-academy{
@@ -925,18 +1042,26 @@ div #category-tienda-1{
     .section-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+        align-items: end;
         justify-items: center;
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
     }
 
+    #titulo-tienda{
+        color: #0048b1;
+        font-family: 'Andreas';
+        font-size: 7vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+
     div #category-tienda{
 
-        font-family: 'Andreas';
-        font-weight: bold;
-        font-size: 6vw;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 7vw;
         text-align: center;
         padding-top: 3rem;
         margin-bottom: 16px;
@@ -945,8 +1070,7 @@ div #category-tienda-1{
     
     div #category-tienda-1{
     
-        font-family: 'Andreas';
-        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 6vw;
         text-align: center;
         padding-top: 2rem;
@@ -966,13 +1090,21 @@ div #category-tienda-1{
     /*main contacto*/
 
     .div-h1-contacto h1{
-
+        color:#0048b1;
         font-family: 'Andreas';
         font-weight: bold;
-        font-size: 4vw;
+        font-size: 5vw;
         text-align: center;
         padding-top: 2rem;
-        margin-bottom: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .div-h2-contacto h2{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 3rem;
     }
     
     .div-h1-contacto-1 p{
@@ -980,7 +1112,7 @@ div #category-tienda-1{
         font-size: 3vw;
         text-align: center;
         justify-content: center;
-        margin: 0 1em 0 1em;
+        margin: 0 4em 0 4em;
     }
 
 
