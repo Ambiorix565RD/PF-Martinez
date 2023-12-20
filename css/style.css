@@ -140,6 +140,11 @@ div #category{
     margin-top: 0.5rem;
 }
 
+.img-instrument-index p{
+
+    font-size: 1vw;
+}
+
 /*botones de las tarjetas*/
 .button-instrument-index{
     background-color: #0048b1;
