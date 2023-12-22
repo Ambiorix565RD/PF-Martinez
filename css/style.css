@@ -54,10 +54,11 @@ footer section .section-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: start;
   align-self: start;
+  text-align: center;
   padding: 0 3vw 0 3vw;
   gap: 15vw;
-  text-align: center;
 }
 footer section .section-footer h3 {
   font-size: 2em;
@@ -68,8 +69,8 @@ footer section .section-footer p {
 footer section .footer-list ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 1vw;
   padding-left: 0;
   padding-bottom: 1vw;
@@ -103,6 +104,7 @@ footer section .footer-list ul li {
 .main-index section .div-index-1 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin: 3em;
   border-radius: 20px;
@@ -166,7 +168,7 @@ footer section .footer-list ul li {
 .main-index section .video-index {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   align-items: center;
   margin: 32px;
 }
@@ -189,6 +191,7 @@ footer section .footer-list ul li {
 .main-my-trayectory section .div-trayectory-1 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin: 3em;
 }
@@ -228,6 +231,7 @@ footer section .footer-list ul li {
 .main-academia section .text-academy {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 32px 0 64px 0;
 }

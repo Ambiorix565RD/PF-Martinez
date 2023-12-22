@@ -5,13 +5,9 @@ footer{
         background-color: #f8f9fa;
         
         #footer-img{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex(column, center, center);
             padding: 1rem;
 
-            
             img{
             
                 width: 150px;
@@ -21,15 +17,12 @@ footer{
         }
 
         .section-footer{
-
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+            @include flex (row,center, start);
             align-self: start;
+            text-align: center;
             padding: 0 3vw 0 3vw;
             gap: 15vw;
-            text-align: center;
-
+            
             h3{
                 font-size: 2em;
             }
@@ -39,10 +32,7 @@ footer{
         }
 
         .footer-list ul{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+            @include flex(row, center, center);
             gap: 1vw;
             padding-left: 0;
             padding-bottom: 1vw;
