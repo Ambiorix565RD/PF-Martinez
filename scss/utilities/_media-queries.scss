@@ -1,0 +1,239 @@
+/*Media Query todas las paginas*/
+
+ /*Media query nav bar*/
+ @media screen and (max-width: 991px){
+
+    header{
+        nav{
+            .container{
+                .menu{
+                    .menu-items{
+                
+                        align-items: center;
+                        z-index: 1;
+                        width: 100vw;
+                        background-color: $color-secundary;
+                    }
+                }
+            }
+        }
+          
+    }
+}
+
+/*Media query para monitores pequeños*/
+@media screen and (max-width: 1450px) and (min-width: 1025px){
+
+    .main-index{
+        
+        section{
+    
+            .div-instrument-index{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                align-items: center;
+                justify-items: center;
+                justify-content: center;
+                gap: 2rem;
+                margin: 3rem 3rem 3rem 5rem;
+    
+                .img-instrument-index{
+                    
+                    border-radius: 20px;
+                    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+                    overflow: hidden;
+                    width: 33vw;
+                    height: 49vw;
+    
+                    img{
+                        width: 100%;
+                        height: 30vw;
+                        
+                    }
+                    
+                    h3{
+                        margin-top: 0.5rem;
+                    }
+    
+                    p{
+    
+                        font-size: 1.8vw;
+                    }
+    
+                    .button-instrument-index{
+                        background-color: $color-primary;
+                        font-family: 'Andreas'; 
+                        font-weight: 700;
+                        font-size: 1.8vw;
+                    }
+                    
+                }
+
+                .img3-index{
+                    grid-column: span 2;
+                    grid-row: auto;
+                    text-align: center;
+                
+                }
+            }
+        }
+    
+    }
+
+    .main-tienda{
+        section{
+            .div-instrument-tienda{
+    
+                display: grid;
+                grid-template-columns: repeat(2, 45%);
+                text-align: center;
+                align-items: end;
+                justify-items: center;
+                justify-content: center;
+                gap: 2rem;
+                margin: 3rem;
+    
+                .card-instrument-tienda{
+                    width: 320px;
+    
+                    img{
+                        width: 100%;
+                        border-radius: 5%;
+                    }
+    
+                    .logo-button-shopp{
+                        .button-instrument-tienda{
+    
+                            background-color: $color-primary;
+                            font-family: 'Andreas'; 
+                            font-weight: 700;
+                            padding: 15px;
+                            
+                        }
+    
+                        img{
+                            height: 25px;
+                            width: 25px;
+                        }
+                        
+                    } 
+                }
+    
+            }
+        }
+    }
+
+    .main-contacto{
+        section{
+            .titulo-contacto{
+                h1{
+
+                    font-size: 3vw;
+                }
+            }
+    
+            .text-contacto{
+                p{
+                    font-size: 2vw;
+                    
+                }
+            }
+        }
+    
+        section{
+            .titulo-2-contacto{
+                h2{
+    
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 3vw;
+                    padding-top: 4rem;
+                }
+            }
+    
+            .form-contact{
+                margin: 25px;
+    
+                .button-contact{
+                    .button-contact-1{
+    
+                        background-color: $color-primary;
+                        font-family: 'Andreas';
+                        font-size: 2vw;
+                        font-weight: bold;
+                        padding: 15px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+    
+        }
+    }
+
+}
+
+/*Media query para tablet*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+
+    .main-index{
+        
+        section{
+    
+            .div-instrument-index{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                align-items: end;
+                justify-items: center;
+                justify-content: end;
+                gap: 2rem;
+                margin: 3rem 3rem 3rem 5rem;
+    
+                .img-instrument-index{
+                    
+                    border-radius: 20px;
+                    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.75);
+                    overflow: hidden;
+                    width: 39vw;
+                    height: 57vw;
+    
+                    img{
+                        width: 100%;
+                        height: 35vw;
+                        
+                    }
+                    
+                    h3{
+                        margin-top: 0.5rem;
+                    }
+    
+                    p{
+    
+                        font-size: 1.8vw;
+                    }
+    
+                    .button-instrument-index{
+                        background-color: $color-primary;
+                        font-family: 'Andreas'; 
+                        font-weight: 700;
+                        font-size: 2vw;
+                    }
+                    
+                }
+
+                .img3-index{
+                    grid-column: span 2;
+                    grid-row: auto;
+                    text-align: center;
+                
+                }
+            }
+        }
+    
+    }
+
+
+
+
+}
+

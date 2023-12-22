@@ -4,7 +4,6 @@
 @import "utilities/mixin";
 
 @import "components/header";
-@import "components/footer";
 @import "components/line-division";
 @import "components/align-items";
 
@@ -13,3 +12,7 @@
 @import "pages/main-academia";
 @import "pages/main-tienda";
 @import "pages/main-contacto";
+
+@import "components/footer";
+
+@import "utilities/media-queries";

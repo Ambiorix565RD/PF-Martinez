@@ -33,11 +33,11 @@
     background-image: url(../assets/img/imagen-menu1.svg);
 }  */
 
-.menu{
+/* .menu{
     
     flex-grow: 0;
     font-weight: 500;
-} 
+}  */
 
 /*footer*/
 
@@ -458,7 +458,7 @@
 /*Media Query todas las paginas*/
 
  /*Media query nav bar*/
- @media screen and (max-width: 991px){
+ /* @media screen and (max-width: 991px){
 
  .menu-items{
 
@@ -468,19 +468,13 @@
     background-color: #f8f9fa;
 }
 
-}
+} */
 
 /*Media query para monitores pequeños*/
 @media screen and (max-width: 1600px) and (min-width: 1025px){
 
-    .align-items{
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-    }
 
-    .section-instrument-index{
+    /* .div-instrument-index{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -489,40 +483,37 @@
         justify-content: center;
         gap: 5rem;
         margin: 3rem 3rem 3rem 5rem;
-    }
+    } */
+
+    /*Tamaño de las imagenes*/
+    /* .img-instrument-index img{
+        width: 30vw;
+        height: 30vw;
+        border-radius: 5%;
+    } */
     
-    div .img3-tablet{
+    /* .img3-index{
         grid-column: span 2;
         grid-row: auto;
         text-align: center;
         margin-right: 32px;
-    }
-
-    .img3-tablet p{
-        width: 382px;
-    }
-
-    /*Tamaño de las imagenes*/
-    .img-instrument-index img{
-        width: 30vw;
-        height: 30vw;
-        border-radius: 5%;
-    }
+    } */
 
      /*main Mi Trayectoria*/
 
-     .div-trayectory h1{
+     /* .div-trayectory h1{
         text-align: center;
         justify-content: center;
         font-family: 'Andreas'; 
         font-weight: 600;
         font-size: 3vw;
         margin: 32px;
-    }
+    } */
 
 
-        /*main tienda*/
-    .section-instrument-tienda{
+        /*main tienda*/ 
+
+    /* .section-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: end;
@@ -530,73 +521,36 @@
         justify-content: center;
         gap: 6rem;
         margin: 3rem;
-    }
+    } */
 
-    #titulo-tienda{
-        color: #0048b1;
-        font-family: 'Andreas';
-        font-size: 5vw;
-        text-align: center;
-        padding-top: 3rem;
-        margin-bottom: 16px;
-    }
-
-    div #category-tienda{
-
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 4vw;
-        text-align: center;
-        padding-top: 3rem;
-        margin-bottom: 16px;
-    }
-    
-    
-    div #category-tienda-1{
-    
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 4vw;
-        text-align: center;
-        padding-top: 2rem;
-    }
-
-    .img-instrument-tienda{
+    /* .card-instrument-tienda{
         width: 320px;
     }
 
-    .img-instrument-tienda img{
-        width: 320px;
-        height: 320px;
+    .card-instrument-tienda img{
+        width: 100%;
         border-radius: 5%;
-    }
+    } */
 
      /*main contacto*/
 
-     .div-h1-contacto h1{
-        color:#0048b1;
-        font-family: 'Andreas';
-        font-weight: bold;
+     /* .titulo-contacto h1{
         font-size: 3vw;
-        text-align: center;
-        padding-top: 2rem;
-        margin-bottom: 32px;
-    }
+        
+    } */
+
+    /* .text-contacto p{
     
-    .titulo-2-contacto h2{
+        font-size: 2vw;
+    } */
+    
+    /* .titulo-2-contacto h2{
     
         font-family: 'Times New Roman', Times, serif;
         font-size: 2vw;
         text-align: center;
         padding-top: 4rem;
-    }
-    
-    .text-contacto p{
-    
-        font-size: 2vw;
-        text-align: center;
-        justify-content: center;
-        margin: 0 4em 0 4em;
-    }
-    
+    } */
 
 }
 
@@ -606,14 +560,7 @@
 
     /*main index*/
 
-    .align-items{
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-    }
-
-    .section-instrument-index{
+    /* .div-instrument-index{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -622,49 +569,26 @@
         justify-content: center;
         gap: 5rem;
         margin: 3rem 3rem 3rem 5rem;
-    }
+    } */
 
-    .img-instrument-index{
-        width: auto;
-        height: auto;
-    }
-    
-    .img-instrument-index img{
-        width: 220px;
-        height: 220px;
+    /* .img-instrument-index{
+        width: 30vw;
+        height: 30vw;
         border-radius: 5%;
+    } */
+
+    /*Tamaño de las imagenes*/
+    /* .img-instrument-index img{
+        width: 100%;
+        height: 35vw;
     }
     
-    
-    div .img3-tablet{
+    .img3-index{
         grid-column: span 2;
         grid-row: auto;
         text-align: center;
         margin-right: 32px;
-    }
-
-    .img3-tablet p{
-        width: 382px;
-    }
-
-    /*Tamaño de las imagenes*/
-    .img-instrument-index img{
-        width: 30vw;
-        height: 30vw;
-        border-radius: 5%;
-    }
-
-    /*main Mi Trayectoria*/
-
-    .div-trayectory h1{
-        text-align: center;
-        justify-content: center;
-        font-family: 'Andreas'; 
-        font-weight: 600;
-        font-size: 4vw;
-        margin: 32px;
-    }
-
+    } */
 
         /*main tienda*/
     .section-instrument-tienda{
@@ -704,7 +628,7 @@
         padding-top: 2rem;
     }
 
-    .img-instrument-tienda{
+    .card-instrument-tienda{
         width: auto;
     }
 
