@@ -26,20 +26,19 @@
         .div-instrument-tienda{
 
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(4, 20%);
             text-align: center;
             align-items: end;
             justify-items: center;
             justify-content: center;
-            gap: 6rem;
+            gap: 2rem;
             margin: 3rem;
 
             .card-instrument-tienda{
                 width: 320px;
 
                 img{
-                    width: 320px;
-                    height: 320px;
+                    width: 100%;
                     border-radius: 5%;
                 }
 

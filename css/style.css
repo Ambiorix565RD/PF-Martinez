@@ -15,18 +15,23 @@ html {
   font-family: "Andreas";
   src: url(../assets/fonts/Andreas.ttf);
 }
-header nav .navbar .container {
+header nav .container {
   padding-left: 0;
 }
-header nav .navbar .container .menu-logo img {
-  width: 150px;
+header nav .container .menu-logo img {
+  width: 10vw;
 }
-header nav .navbar .container .menu-navbar .logo-img-svg {
+header nav .container .menu-navbar .logo-img-svg {
   background-image: url(../assets/img/imagen-menu1.svg);
 }
-header nav .navbar .container .menu {
+header nav .container .menu {
   flex-grow: 0;
   font-weight: 500;
+}
+header nav .container .menu .menu-items {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer section {
@@ -257,20 +262,19 @@ footer section .footer-list ul li {
 }
 .main-tienda section .div-instrument-tienda {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 20%);
   text-align: center;
   align-items: end;
   justify-items: center;
   justify-content: center;
-  gap: 6rem;
+  gap: 2rem;
   margin: 3rem;
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda {
   width: 320px;
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda img {
-  width: 320px;
-  height: 320px;
+  width: 100%;
   border-radius: 5%;
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda .logo-button-shopp .button-instrument-tienda {
