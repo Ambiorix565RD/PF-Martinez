@@ -1,0 +1,52 @@
+.main-contacto{
+    section{
+        .titulo-contacto{
+            h1{
+                color: $color-primary;
+                font-family: 'Andreas';
+                font-weight: bold;
+                font-size: 2vw;
+                text-align: center;
+                padding-top: 2rem;
+                margin-bottom: 32px;
+            }
+        }
+
+        .text-contacto{
+            p{
+
+                font-size: 1vw;
+                text-align: center;
+                justify-content: center;
+                margin: 0 4em 0 4em;
+            }
+        }
+    }
+
+    section{
+        .titulo-2-contacto{
+            h2{
+
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 2vw;
+                padding-top: 4rem;
+            }
+        }
+
+        .form-contact{
+            margin: 25px;
+
+            .button-contact{
+                .button-contact-1{
+
+                    background-color: $color-primary;
+                    font-family: 'Andreas';
+                    font-size: 20px;
+                    padding: 15px;
+                    border-radius: 25px;
+                }
+            }
+        }
+
+    }
+}

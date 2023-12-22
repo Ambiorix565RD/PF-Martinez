@@ -60,61 +60,66 @@
     </header>
 
     <!--main contacto-->
-    <main>
+    <main class="main-contacto">
       <section>
-        <div class="div-h1-contacto">
-          <h1>INSCRIPCIONES</h1>
-        </div>
-        <div class="div-h1-contacto-1">
-          <p>
-            La información que introduzcas es totalmente confidencial y será
-            utilizada únicamente para entrar en contacto contigo y agendar tu
-            clase gratis. Al terminar simplemente pulsa "Enviar" y en breve nos
-            comunicaremos contigo.
-          </p>
+        <div class="align-items">
+          <div class="titulo-contacto">
+            <h1>INSCRIPCIONES</h1>
+          </div>
+          <div class="text-contacto">
+            <p>
+              La información que introduzcas es totalmente confidencial y será
+              utilizada únicamente para entrar en contacto contigo y agendar tu
+              clase gratis. Al terminar simplemente pulsa "Enviar" y en breve nos
+              comunicaremos contigo.
+            </p>
+          </div>
         </div>
       </section>
 
-    <section>
-      <!--formulario-->
-      <div class="div-h2-contacto">
-        <h2>Formulario</h2>
-      </div>
-      <form class="row g-3 form-contact">
-        <div class="row g-3">
+      
+      <section>
+        <div class="align-items">
+          <div class="titulo-2-contacto">
+            <h2>Formulario</h2>
+          </div>
+        </div>
+        <!--formulario-->
+        <form class="row g-3 form-contact">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="Nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="Nombre" />
+            </div>
+            <div class="col-md-6">
+              <label for="Apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="Apellido" />
+            </div>
           <div class="col-md-6">
-            <label for="Nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" />
+            <label for="correo" class="form-label">Correo</label>
+            <input type="email"class="form-control" id="correo" placeholder="correo@ejemplo.com"/>
+          </div>
+          <div class="col-md-3">
+            <label for="Celular" class="form-label">Celular</label>
+            <input type="number" class="form-control" id="Celular"/>
+          </div>
+          <div class="col-12">
+            <label for="dirección" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="dirección"/>
           </div>
           <div class="col-md-6">
-            <label for="Apellido" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="Apellido" />
+            <label for="ciudad" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="ciudad" />
           </div>
-        <div class="col-md-6">
-          <label for="correo" class="form-label">Correo</label>
-          <input type="email"class="form-control" id="correo" placeholder="correo@ejemplo.com"/>
-        </div>
-        <div class="col-md-3">
-          <label for="Celular" class="form-label">Celular</label>
-          <input type="number" class="form-control" id="Celular"/>
-        </div>
-        <div class="col-12">
-          <label for="dirección" class="form-label">Dirección</label>
-          <input type="text" class="form-control" id="dirección"/>
-        </div>
-        <div class="col-md-6">
-          <label for="ciudad" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="ciudad" />
-        </div>
-        <div class="mb-3">
-          <label for="cajacomentario" class="form-label">Comentarios</label>
-          <textarea class="form-control" id="cajacomentario" rows="3"></textarea>
-        </div>
-        <div class="col-12 button-contact">
-          <button type="submit" class="btn btn-primary button-contact-1">ENVIAR</button>
-        </div>
-      </form>
-    </section>
+          <div class="mb-3">
+            <label for="cajacomentario" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="cajacomentario" rows="3"></textarea>
+          </div>
+          <div class="col-12 button-contact">
+            <button type="submit" class="btn btn-primary button-contact-1">ENVIAR</button>
+          </div>
+        </form>
+      </section>
     </main>
 
     <!--footer-->

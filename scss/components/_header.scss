@@ -1,18 +1,30 @@
+
 header{
     nav{
-        .container-fluid .container{
-            .navbar-brand .menu-logo{
-                img{
+        .navbar{
+            .container{
+                padding-left: 0;
 
+                .menu-logo{
+                    img{
+                        width: 150px;
+                    }
                 }
-            }
-            .navbar-toggler .menu-navbar{
+                
+                .menu-navbar{
+                    .logo-img-svg{
+                        background-image: url(../assets/img/imagen-menu1.svg);
+                    }
+                }
 
-                .navbar-toggler-icon .logo-img-svg{
-                    
-                }                    
-            }
+                .menu{
+                    flex-grow: 0;
+                    font-weight: 500;
+                    }
 
+            }
         }
+
     }
 }
+

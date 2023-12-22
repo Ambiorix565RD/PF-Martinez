@@ -1,0 +1,44 @@
+.main-my-trayectory{
+    section{
+        .div-trayectory{
+            h1{
+    
+                color: $color-primary;
+                font-family: 'Andreas'; 
+                font-weight: 600;
+                font-size: 4vw;
+                margin: 64px;  
+            }
+        }
+    }
+
+    section{
+        .div-trayectory-1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 3em;
+            
+            img{
+                width: 25vw;
+            }
+
+            .text-trayectory{
+
+                margin-left: 32px;
+                
+                h2{
+                    margin-bottom: 32px;
+                    font-family: 'Andreas'; 
+                    font-weight: bold;
+                    font-size: 3vw;
+                }
+
+                p{
+                    font-size: 2vw;
+                }
+
+            }
+        }
+    }
+}

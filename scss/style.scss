@@ -1,3 +1,14 @@
 @import "utilities/reset";
+@import "utilities/variables";
 @import "utilities/globals";
+
 @import "components/header";
+@import "components/footer";
+@import "components/line-division";
+@import "components/align-items";
+
+@import "pages/main-index";
+@import "pages/main-mi-trayectoria";
+@import "pages/main-academia";
+@import "pages/main-tienda";
+@import "pages/main-contacto";
