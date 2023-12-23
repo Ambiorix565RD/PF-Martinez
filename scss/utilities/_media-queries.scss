@@ -57,7 +57,7 @@
                     }
     
                     p{
-    
+                        margin: 0 1vw 5vw 1vw;
                         font-size: 1.8vw;
                     }
     
@@ -90,7 +90,7 @@
                 text-align: center;
                 align-items: end;
                 justify-items: center;
-                justify-content: center;
+                justify-content: center; 
                 gap: 2rem;
                 margin: 3rem;
     
@@ -208,7 +208,7 @@
                     }
     
                     p{
-    
+                        margin: 0 1vw 5vw 1vw;
                         font-size: 1.8vw;
                     }
     
@@ -232,8 +232,595 @@
     
     }
 
+    .main-tienda{
+        section{
+            #titulo-tienda{
+                h1{
+                    font-size: 4vw;
+                }
+            }
+        }
 
+        section{
+            #category-tienda{
+                h2{
+                    font-size: 4vw;
+                }
+            }
 
+            .div-instrument-tienda{
+    
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                text-align: center;
+                align-items: end;
+                justify-items: center;
+                justify-content: center; 
+                gap: 2rem;
+                margin: 3rem;
+    
+                .card-instrument-tienda{
+                    width: 320px;
+    
+                    img{
+                        width: 85%;
+                        border-radius: 5%;
+                    }
+    
+                    .logo-button-shopp{
+                        .button-instrument-tienda{
+    
+                            background-color: $color-primary;
+                            font-family: 'Andreas'; 
+                            font-weight: 700;
+                            padding: 15px;
+                            
+                        }
+    
+                        img{
+                            height: 25px;
+                            width: 25px;
+                        }
+                        
+                    } 
+                }
+    
+            }
+        }
+    }
 
+    .main-contacto{
+        section{
+            .titulo-contacto{
+                h1{
+
+                    font-size: 4vw;
+                }
+            }
+    
+            .text-contacto{
+                p{
+                    font-size: 2.2vw;
+                    
+                }
+            }
+        }
+    
+        section{
+            .titulo-2-contacto{
+                h2{
+                    font-size: 4vw;
+                }
+            }
+    
+            .form-contact{
+                margin: 25px;
+    
+                .button-contact{
+                    .button-contact-1{
+    
+                        background-color: $color-primary;
+                        font-family: 'Andreas';
+                        font-size: 2.5vw;
+                        font-weight: bold;
+                        padding: 15px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    footer{
+
+        section{
+            margin-top: 5rem;   
+            background-color: $color-secundary;
+            
+            #footer-img{
+                @include flex(column, center, center);
+                padding: 1rem;
+    
+                img{
+                
+                    width: 12vw;
+                    height: 12vw;    
+                    border-radius: 5%;
+                }
+            }
+    
+            .div-footer{
+                @include flex (row,center, start);
+                align-self: start;
+                text-align: center;
+                padding: 0 3vw 0 3vw;
+                gap: 15vw;
+                
+                h3{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+    
+            .footer-list ul{
+                @include flex(row, center, center);
+                gap: 1vw;
+                padding-left: 0;
+                padding-bottom: 1vw;
+                margin-bottom: 0;
+    
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    header{
+        nav{
+            .container{
+                padding-left: 0;
+    
+                .menu-logo{
+                    img{
+                        width: 20vw;
+                    }
+                }
+                
+                .menu-navbar{
+                    .logo-img-svg{
+                        background-image: url(../assets/img/imagen-menu1.svg);
+                    }
+                }
+    
+                .menu{
+                    flex-grow: 0;
+                    font-weight: 500;     
+    
+                    .menu-items{
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    } 
+                }
+            }
+        }
+    }
+
+    .main-index{
+
+        section{
+            .index-titulo-1 h1{
+    
+                color: $color-primary;
+                font-family: 'Andreas'; 
+                font-weight: bold;
+                font-size: 7vw;
+                margin: 2rem 0 1rem 0;
+            }
+        }
+    
+        section{
+            .div-index-1{
+            
+                @include flex(column, center, center);
+                margin: 1rem;
+                border-radius: 20px;
+                overflow: hidden;
+                
+                div{
+                    img{
+                        width: 52vw;
+                        border-radius: 5%;
+                    }
+                }
+    
+                .front-page-text{
+                    font-size: 3.7vw;
+    
+                    h2{
+                        font-family: 'Andreas'; 
+                        font-weight: bold;
+                        font-size: 6vw;
+                        margin: 2rem 0 1rem 0;
+                    }
+
+                    p{
+
+                        text-align: center;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+
+        
+        section{
+
+            #index-titulo-2{
+
+                h2{
+                    font-family: 'Andreas';
+                    font-weight: bold;
+                    font-size: 7vw;
+                    text-align: center;
+                    padding-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
+    
+            .div-instrument-index{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                align-items: end;
+                justify-items: center;
+                justify-content: end;
+                gap: 2rem;
+                margin: 2rem 0 3rem 0;
+    
+                .img-instrument-index{
+                    
+                    border-radius: 5vw;
+                    box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.75);
+                    overflow: hidden;
+                    width: 65vw;
+                    height: 100vw;
+    
+                    img{
+                        width: 100%;
+                        height: 55vw;
+                        
+                    }
+                    
+                    h3{
+                        margin-top: 1vw;
+                        font-size: 7vw;
+                    }
+    
+                    p{
+                        margin: 0 1vw 5vw 1vw;
+                        font-size: 3.2vw;
+                    }
+    
+                    .button-instrument-index{
+                        background-color: $color-primary;
+                        font-family: 'Andreas'; 
+                        font-weight: 700;
+                        font-size: 4vw;
+                    }
+                    
+                }
+            }
+        }
+
+        section{
+        
+            .video-index{
+                @include flex(column, center, center);
+                margin: 5vw 0 3vw 0;
+                
+                .card-size{
+                    width: 95vw;
+                    margin-bottom: 3vw;
+                    h2{
+                        text-align: center;
+                        font-family: 'Andreas'; 
+                        font-weight: bold;
+                        font-size: 7vw;
+                        margin-top: 0;
+                        margin-bottom: 1rem;
+                        margin-left: 0;
+                        margin-right: 0;
+                        
+                    }
+                }
+
+                .video-youtube{
+                    width: 88vw;
+                    height: 45vw;
+    
+                    iframe{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    .main-my-trayectory{
+        section{
+            .div-trayectory{
+                h1{
+        
+                    color: $color-primary;
+                    font-family: 'Andreas'; 
+                    font-weight: bold;
+                    font-size: 7vw;
+                    margin: 2rem 0 1rem 0; 
+                }
+            }
+        }
+    
+        section{
+            .div-trayectory-1{
+                @include flex(column, center, center);
+                margin: 8vw;    
+                
+                img{
+                    width: 75vw;
+                    border-radius: 5%;
+                }
+    
+                .text-trayectory{
+                    text-align: center;
+                    margin-left: 0;
+                    
+                    h2{
+                        margin-top: 1.0rem;
+                        margin-bottom: 1.5rem;
+                        font-family: 'Andreas'; 
+                        font-weight: bold;
+                        font-size: 6vw;
+                    }
+    
+                    p{
+                        width: 74vw;
+                        font-size: 3.8vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-academia{
+        section{
+            .carousel-img{
+                width: 100%;
+                height: 60vw;
+    
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; 
+                    display: block;
+                }
+            }
+        }
+    
+        section{
+            .titulo-academy{
+    
+                h1{
+                    color: $color-primary;
+                    font-family: 'Andreas'; 
+                    font-weight: 600;
+                    font-size: 6.5vw;
+                    margin-top: 7vw;
+                    margin-right: 7vw;
+                    margin-left: 7vw;
+                    margin-bottom: 7vw;
+                }
+            }
+    
+            .text-academy{
+                @include flex(column, center, center);
+                margin: 0;
+    
+                h2{
+                    font-size: 5.5vw;
+                }
+    
+                p{
+                    font-size: 4.0vw; 
+                    margin: 2rem 2rem 3rem 2rem;
+                }
+    
+                .button-academy{
+                    background-color: $color-primary;
+                    font-family: inherit;
+                    font-size: 5vw;
+                    padding: 4vw;
+                    border-radius: 2vw;
+                }
+            }
+        }
+    }
+
+    .main-tienda{
+        section{
+            #titulo-tienda{
+                h1{
+    
+                    color: $color-primary;
+                    font-family: 'Andreas';
+                    font-weight: bold;
+                    font-size: 8vw;
+                    padding-top: 3rem;
+                    margin-bottom: 1rem; 
+                }
+            }
+        }
+    
+        section{
+            #category-tienda{
+                h2{
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 8vw;
+                    padding-top: 3rem;
+                    margin-bottom: 1rem; 
+                }
+            }
+    
+            .div-instrument-tienda{
+    
+                display: grid;
+                grid-template-columns: repeat(1, 20%);
+                text-align: center;
+                align-items: end;
+                justify-items: center;
+                justify-content: center;
+                gap: 4rem;
+                margin: 3rem;
+    
+                .card-instrument-tienda{
+                    width: 85vw;
+    
+                    img{
+                        width: 100%;
+                        border-radius: 5%;
+                    }
+    
+                    .logo-button-shopp{
+                        .button-instrument-tienda{
+    
+                            background-color: $color-primary;
+                            font-family: 'Andreas'; 
+                            font-weight: 700;
+                            padding: 1rem;
+                            
+                        }
+    
+                        img{
+                            height: 25px;
+                            width: 25px;
+                        }
+                        
+                    } 
+                }
+    
+            }
+        }
+    }
+
+    .main-contacto{
+        section{
+            .titulo-contacto{
+                h1{
+                    color: $color-primary;
+                    font-family: 'Andreas';
+                    font-weight: bold;
+                    font-size: 7vw;
+                    text-align: center;
+                    padding-top: 2rem;
+                    margin-bottom: 2rem;
+                }
+            }
+    
+            .text-contacto{
+                p{
+    
+                    font-size: 3.5vw; 
+                    margin: 1rem 2rem 2rem 2rem;
+                    text-align: center;
+                    justify-content: center;
+                    
+                }
+            }
+        }
+    
+        section{
+            .titulo-2-contacto{
+                h2{
+    
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 6vw;
+                    padding-top: 1rem;
+                }
+            }
+    
+            .form-contact{
+                margin: 25px;
+    
+                .button-contact{
+                    .button-contact-1{
+    
+                        background-color: $color-primary;
+                        font-family: 'Andreas';
+                        font-size: 6vw;
+                        font-weight: bold;
+                        padding: 1rem;
+                        border-radius: 5vw;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    footer{
+
+        section{
+            margin-top: 5rem;   
+            background-color: $color-secundary;
+            
+            #footer-img{
+                @include flex(column, center, center);
+                padding: 1rem;
+    
+                img{
+                
+                    width: 20vw;
+                    height: 20vw;    
+                    border-radius: 5%;
+                }
+            }
+    
+            .div-footer{
+                @include flex (column,center, start);
+                align-self: start;
+                text-align: center;
+                padding: 0 3vw 3vw 3vw;
+                gap: 8vw;
+                
+                h3{
+                    font-size: 5.8vw;
+                }
+                p{
+                    font-size: 4.8vw;
+                }
+            }
+    
+            .footer-list ul{
+                @include flex(row, center, center);
+                gap: 1vw;
+                padding-left: 0;
+                padding-bottom: 1vw;
+                margin-bottom: 0;
+    
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
 }
 

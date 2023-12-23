@@ -112,6 +112,7 @@ header nav .container .menu .menu-items {
   margin-top: 0.5rem;
 }
 .main-index section .div-instrument-index .img-instrument-index p {
+  margin: 0 1vw 5vw 1vw;
   font-size: 1vw;
 }
 .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -125,15 +126,22 @@ header nav .container .menu .menu-items {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 32px;
+  margin: 2rem;
 }
 .main-index section .video-index h2 {
-  width: 560px;
   text-align: center;
   font-family: "Andreas";
   font-weight: bold;
   font-size: 3vw;
-  margin-bottom: 16px;
+  margin: 16px;
+}
+.main-index section .video-index .video-youtube {
+  width: 75vw;
+  height: 40vw;
+}
+.main-index section .video-index .video-youtube iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .main-my-trayectory section .div-trayectory h1 {
@@ -226,7 +234,7 @@ header nav .container .menu .menu-items {
   align-items: end;
   justify-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin: 3rem;
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda {
@@ -294,7 +302,7 @@ footer section #footer-img img {
   height: 150px;
   border-radius: 5%;
 }
-footer section .section-footer {
+footer section .div-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -304,10 +312,10 @@ footer section .section-footer {
   padding: 0 3vw 0 3vw;
   gap: 15vw;
 }
-footer section .section-footer h3 {
+footer section .div-footer h3 {
   font-size: 2em;
 }
-footer section .section-footer p {
+footer section .div-footer p {
   font-size: 2em;
 }
 footer section .footer-list ul {
@@ -361,6 +369,7 @@ footer section .footer-list ul li {
     margin-top: 0.5rem;
   }
   .main-index section .div-instrument-index .img-instrument-index p {
+    margin: 0 1vw 5vw 1vw;
     font-size: 1.8vw;
   }
   .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -451,6 +460,7 @@ footer section .footer-list ul li {
     margin-top: 0.5rem;
   }
   .main-index section .div-instrument-index .img-instrument-index p {
+    margin: 0 1vw 5vw 1vw;
     font-size: 1.8vw;
   }
   .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -463,6 +473,419 @@ footer section .footer-list ul li {
     grid-column: span 2;
     grid-row: auto;
     text-align: center;
+  }
+  .main-tienda section #titulo-tienda h1 {
+    font-size: 4vw;
+  }
+  .main-tienda section #category-tienda h2 {
+    font-size: 4vw;
+  }
+  .main-tienda section .div-instrument-tienda {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+    align-items: end;
+    justify-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda {
+    width: 320px;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda img {
+    width: 85%;
+    border-radius: 5%;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda .logo-button-shopp .button-instrument-tienda {
+    background-color: #0048b1;
+    font-family: "Andreas";
+    font-weight: 700;
+    padding: 15px;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda .logo-button-shopp img {
+    height: 25px;
+    width: 25px;
+  }
+  .main-contacto section .titulo-contacto h1 {
+    font-size: 4vw;
+  }
+  .main-contacto section .text-contacto p {
+    font-size: 2.2vw;
+  }
+  .main-contacto section .titulo-2-contacto h2 {
+    font-size: 4vw;
+  }
+  .main-contacto section .form-contact {
+    margin: 25px;
+  }
+  .main-contacto section .form-contact .button-contact .button-contact-1 {
+    background-color: #0048b1;
+    font-family: "Andreas";
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  footer section {
+    margin-top: 5rem;
+    background-color: #f8f9fa;
+  }
+  footer section #footer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  footer section #footer-img img {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 5%;
+  }
+  footer section .div-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    align-self: start;
+    text-align: center;
+    padding: 0 3vw 0 3vw;
+    gap: 15vw;
+  }
+  footer section .div-footer h3 {
+    font-size: 1.5rem;
+  }
+  footer section .div-footer p {
+    font-size: 1.3rem;
+  }
+  footer section .footer-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 0;
+    padding-bottom: 1vw;
+    margin-bottom: 0;
+  }
+  footer section .footer-list ul li {
+    list-style-type: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header nav .container {
+    padding-left: 0;
+  }
+  header nav .container .menu-logo img {
+    width: 20vw;
+  }
+  header nav .container .menu-navbar .logo-img-svg {
+    background-image: url(../assets/img/imagen-menu1.svg);
+  }
+  header nav .container .menu {
+    flex-grow: 0;
+    font-weight: 500;
+  }
+  header nav .container .menu .menu-items {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .main-index section .index-titulo-1 h1 {
+    color: #0048b1;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 7vw;
+    margin: 2rem 0 1rem 0;
+  }
+  .main-index section .div-index-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .main-index section .div-index-1 div img {
+    width: 52vw;
+    border-radius: 5%;
+  }
+  .main-index section .div-index-1 .front-page-text {
+    font-size: 3.7vw;
+  }
+  .main-index section .div-index-1 .front-page-text h2 {
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 6vw;
+    margin: 2rem 0 1rem 0;
+  }
+  .main-index section .div-index-1 .front-page-text p {
+    text-align: center;
+    margin-left: 0;
+  }
+  .main-index section #index-titulo-2 h2 {
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .main-index section .div-instrument-index {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: end;
+    justify-items: center;
+    justify-content: end;
+    gap: 2rem;
+    margin: 2rem 0 3rem 0;
+  }
+  .main-index section .div-instrument-index .img-instrument-index {
+    border-radius: 5vw;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 65vw;
+    height: 100vw;
+  }
+  .main-index section .div-instrument-index .img-instrument-index img {
+    width: 100%;
+    height: 55vw;
+  }
+  .main-index section .div-instrument-index .img-instrument-index h3 {
+    margin-top: 1vw;
+    font-size: 7vw;
+  }
+  .main-index section .div-instrument-index .img-instrument-index p {
+    margin: 0 1vw 5vw 1vw;
+    font-size: 3.2vw;
+  }
+  .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
+    background-color: #0048b1;
+    font-family: "Andreas";
+    font-weight: 700;
+    font-size: 4vw;
+  }
+  .main-index section .video-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw 0 3vw 0;
+  }
+  .main-index section .video-index .card-size {
+    width: 95vw;
+    margin-bottom: 3vw;
+  }
+  .main-index section .video-index .card-size h2 {
+    text-align: center;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 7vw;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .main-index section .video-index .video-youtube {
+    width: 88vw;
+    height: 45vw;
+  }
+  .main-index section .video-index .video-youtube iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .main-my-trayectory section .div-trayectory h1 {
+    color: #0048b1;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 7vw;
+    margin: 2rem 0 1rem 0;
+  }
+  .main-my-trayectory section .div-trayectory-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8vw;
+  }
+  .main-my-trayectory section .div-trayectory-1 img {
+    width: 75vw;
+    border-radius: 5%;
+  }
+  .main-my-trayectory section .div-trayectory-1 .text-trayectory {
+    text-align: center;
+    margin-left: 0;
+  }
+  .main-my-trayectory section .div-trayectory-1 .text-trayectory h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 6vw;
+  }
+  .main-my-trayectory section .div-trayectory-1 .text-trayectory p {
+    width: 74vw;
+    font-size: 3.8vw;
+  }
+  .main-academia section .carousel-img {
+    width: 100%;
+    height: 60vw;
+  }
+  .main-academia section .carousel-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .main-academia section .titulo-academy h1 {
+    color: #0048b1;
+    font-family: "Andreas";
+    font-weight: 600;
+    font-size: 6.5vw;
+    margin-top: 7vw;
+    margin-right: 7vw;
+    margin-left: 7vw;
+    margin-bottom: 7vw;
+  }
+  .main-academia section .text-academy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .main-academia section .text-academy h2 {
+    font-size: 5.5vw;
+  }
+  .main-academia section .text-academy p {
+    font-size: 4vw;
+    margin: 2rem 2rem 3rem 2rem;
+  }
+  .main-academia section .text-academy .button-academy {
+    background-color: #0048b1;
+    font-family: inherit;
+    font-size: 5vw;
+    padding: 4vw;
+    border-radius: 2vw;
+  }
+  .main-tienda section #titulo-tienda h1 {
+    color: #0048b1;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 8vw;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .main-tienda section #category-tienda h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 8vw;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .main-tienda section .div-instrument-tienda {
+    display: grid;
+    grid-template-columns: repeat(1, 20%);
+    text-align: center;
+    align-items: end;
+    justify-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 3rem;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda {
+    width: 85vw;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda img {
+    width: 100%;
+    border-radius: 5%;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda .logo-button-shopp .button-instrument-tienda {
+    background-color: #0048b1;
+    font-family: "Andreas";
+    font-weight: 700;
+    padding: 1rem;
+  }
+  .main-tienda section .div-instrument-tienda .card-instrument-tienda .logo-button-shopp img {
+    height: 25px;
+    width: 25px;
+  }
+  .main-contacto section .titulo-contacto h1 {
+    color: #0048b1;
+    font-family: "Andreas";
+    font-weight: bold;
+    font-size: 7vw;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .main-contacto section .text-contacto p {
+    font-size: 3.5vw;
+    margin: 1rem 2rem 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .main-contacto section .titulo-2-contacto h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 6vw;
+    padding-top: 1rem;
+  }
+  .main-contacto section .form-contact {
+    margin: 25px;
+  }
+  .main-contacto section .form-contact .button-contact .button-contact-1 {
+    background-color: #0048b1;
+    font-family: "Andreas";
+    font-size: 6vw;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 5vw;
+  }
+  footer section {
+    margin-top: 5rem;
+    background-color: #f8f9fa;
+  }
+  footer section #footer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  footer section #footer-img img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5%;
+  }
+  footer section .div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    align-self: start;
+    text-align: center;
+    padding: 0 3vw 3vw 3vw;
+    gap: 8vw;
+  }
+  footer section .div-footer h3 {
+    font-size: 5.8vw;
+  }
+  footer section .div-footer p {
+    font-size: 4.8vw;
+  }
+  footer section .footer-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 0;
+    padding-bottom: 1vw;
+    margin-bottom: 0;
+  }
+  footer section .footer-list ul li {
+    list-style-type: none;
   }
 }
 

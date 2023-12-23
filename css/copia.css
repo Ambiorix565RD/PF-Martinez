@@ -513,7 +513,7 @@
 
         /*main tienda*/ 
 
-    /* .section-instrument-tienda{
+    /* .div-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: end;
@@ -591,7 +591,26 @@
     } */
 
         /*main tienda*/
-    .section-instrument-tienda{
+
+    /* #titulo-tienda h1{
+        color: #0048b1;
+        font-family: 'Andreas';
+        font-size: 6vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    }
+
+    #category-tienda h2{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 3rem;
+        margin-bottom: 16px;
+    } */
+
+    /* .div-instrument-tienda{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: end;
@@ -601,46 +620,18 @@
         margin: 3rem;
     }
 
-    #titulo-tienda{
-        color: #0048b1;
-        font-family: 'Andreas';
-        font-size: 6vw;
-        text-align: center;
-        padding-top: 3rem;
-        margin-bottom: 16px;
-    }
-
-    div #category-tienda{
-
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 5vw;
-        text-align: center;
-        padding-top: 3rem;
-        margin-bottom: 16px;
-    }
-    
-    
-    div #category-tienda-1{
-    
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 5vw;
-        text-align: center;
-        padding-top: 2rem;
-    }
-
     .card-instrument-tienda{
-        width: auto;
+        width: 320px;
     }
 
-    .img-instrument-tienda img{
-        width: 320px;
-        height: 320px;
+    .card-instrument-tienda img{
+        width: 100%;
         border-radius: 5%;
-    }
+    } */
 
      /*main contacto*/
 
-     .div-h1-contacto h1{
+     /* .titulo-contacto h1{
         color:#0048b1;
         font-family: 'Andreas';
         font-weight: bold;
@@ -649,15 +640,7 @@
         padding-top: 2rem;
         margin-bottom: 32px;
     }
-    
-    .titulo-2-contacto h2{
-    
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 3vw;
-        text-align: center;
-        padding-top: 4rem;
-    }
-    
+
     .text-contacto p{
     
         font-size: 2vw;
@@ -665,25 +648,24 @@
         justify-content: center;
         margin: 0 4em 0 4em;
     }
-
-
+    
+    .titulo-2-contacto h2{
+    
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        text-align: center;
+        padding-top: 4rem;
+    } */
 }
 
 
 /*Media query para mobile*/
 @media screen and (max-width: 768px){
 
-    .menu-logo img{
+    /* .menu-logo img{
         width: 80px;
         border-radius: 25px;
-    }
-
-    .align-items{
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        justify-items: center;
-    }
+    } */
 
     .section-index-titulo h1{
 

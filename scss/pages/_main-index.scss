@@ -82,7 +82,7 @@
                 }
 
                 p{
-
+                    margin: 0 1vw 5vw 1vw;
                     font-size: 1vw;
                 }
 
@@ -104,15 +104,25 @@
         
         .video-index{
             @include flex(column, center, center);
-            margin: 32px;
+            margin: 2rem;
 
             h2{
-                width: 560px;
+                
                 text-align: center;
                 font-family: 'Andreas'; 
                 font-weight: bold;
                 font-size: 3vw;
-                margin-bottom: 16px;
+                margin: 16px;
+            }
+
+            .video-youtube{
+                width: 75vw; 
+                height: 40vw;
+
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }

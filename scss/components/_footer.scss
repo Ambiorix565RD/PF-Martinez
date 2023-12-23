@@ -16,7 +16,7 @@ footer{
             }
         }
 
-        .section-footer{
+        .div-footer{
             @include flex (row,center, start);
             align-self: start;
             text-align: center;
