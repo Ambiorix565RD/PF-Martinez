@@ -16,6 +16,8 @@
     />
     <!--Link CSS-->
     <link rel="stylesheet" href="./css/style.css" />
+    <!--Link AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
 
@@ -80,7 +82,10 @@
 
       <section>
         <div class="align-items">
-          <div class="div-index-1">
+          <div class="div-index-1" data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine">
             <div>
               <img src="./assets/img/foto-boda-oneil.jpg" alt="foto-boda-1" />
             </div>
@@ -113,14 +118,20 @@
           </div>
           <div class="div-instrument-index">
             <!--imagen 1-->
-            <div class="img-instrument-index">
+            <div class="img-instrument-index" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
               <img src="./assets/img/imagen-clases-bateria.jpg" alt="imagen-clases-bateria"/>
                 <h3>Clases</h3>
                 <p>Ingresa aquí si quieres saber mas a detalles sobre nuestros precios y horarios de las clases de batería.</p>
                 <a href="./pages/academia.html" class="btn btn-primary button-instrument-index">Clases</a>
             </div>
             <!--Imagen 2-->
-            <div class="img-instrument-index">
+            <div class="img-instrument-index" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
               <img src="./assets/img/imagen-bateria-2.jpg" alt="imagen-bateria-2"/>
               <div>
                 <h3>Tienda</h3>
@@ -129,7 +140,10 @@
               </div>
             </div>
             <!--Imagen 3-->
-            <div class="img-instrument-index img3-index">
+            <div class="img-instrument-index img3-index" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
               <img src="./assets/img/banner-clase-bateria.jpeg" alt="imagen-banner"/>
               <div>
                 <h3>Inscripciones</h3>
@@ -149,7 +163,10 @@
 
       <section>
         <div class="align-items">
-          <div class="video-index">
+          <div class="video-index" data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine">
               <div class="card-size">
                 <h2>AmbiDrums | Canal youtube</h2>
               </div>
@@ -208,5 +225,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!--Link AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

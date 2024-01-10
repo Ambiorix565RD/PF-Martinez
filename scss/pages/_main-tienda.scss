@@ -36,6 +36,12 @@
 
             .card-instrument-tienda{
                 width: 320px;
+                transition: 0.5S;
+
+                &:hover{
+                    transform: translate(-25px, -25px);
+                    transition: 0.5S;
+                }
 
                 img{
                     width: 100%;

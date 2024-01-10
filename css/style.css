@@ -65,7 +65,7 @@ header nav .container .menu .menu-items .nav-link:hover {
   font-family: "Andreas";
   font-weight: bold;
   font-size: 4vw;
-  margin: 32px 0 32px 0;
+  margin: 64px 0 64px 0;
 }
 .main-index section .div-index-1 {
   display: flex;
@@ -227,6 +227,11 @@ header nav .container .menu .menu-items .nav-link:hover {
   font-size: 2vw;
   padding: 30px;
   border-radius: 25px;
+  transition: 0.5S;
+}
+.main-academia section .text-academy .button-academy:hover {
+  transform: translate(0, -25px);
+  transition: 0.5S;
 }
 
 .main-tienda section #titulo-tienda h1 {
@@ -255,6 +260,11 @@ header nav .container .menu .menu-items .nav-link:hover {
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda {
   width: 320px;
+  transition: 0.5S;
+}
+.main-tienda section .div-instrument-tienda .card-instrument-tienda:hover {
+  transform: translate(-25px, -25px);
+  transition: 0.5S;
 }
 .main-tienda section .div-instrument-tienda .card-instrument-tienda img {
   width: 100%;
@@ -300,6 +310,11 @@ header nav .container .menu .menu-items .nav-link:hover {
   font-size: 25px;
   padding: 15px;
   border-radius: 25px;
+  transition: 0.5S;
+}
+.main-contacto section .form-contact .button-contact .button-contact-1:hover {
+  transform: translate(0, -18px);
+  transition: 0.5S;
 }
 
 footer section {
@@ -386,6 +401,11 @@ footer section .footer-list ul li:hover {
     overflow: hidden;
     width: 33vw;
     height: 49vw;
+    transition: 0.5S;
+  }
+  .main-index section .div-instrument-index .img-instrument-index:hover {
+    transform: translate(-25px, -25px);
+    transition: 0.5S;
   }
   .main-index section .div-instrument-index .img-instrument-index img {
     width: 100%;

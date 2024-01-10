@@ -44,6 +44,12 @@
                 font-size: 2vw;
                 padding: 30px;
                 border-radius: 25px;
+                transition: 0.5S;
+
+                &:hover{
+                    transform: translate(0, -25px);
+                    transition: 0.5S;
+                }
             }
         }
     }
