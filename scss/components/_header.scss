@@ -5,8 +5,15 @@ header{
             padding-left: 0;
 
             .menu-logo{
+                transition: 0.5S;
+                
                 img{
                     width: 10vw;
+                }
+                
+                &:hover{
+                    transform: translate(-15px, -15px);
+                    transition: 0.5S;
                 }
             }
             
@@ -24,7 +31,14 @@ header{
                     width: 100%;
                     display: flex;
                     justify-content: flex-end;
-                } 
+
+                    .nav-link{
+                        &:hover{
+                            color:$color-primary;
+                            transform: translate(-5px, -5px);                            
+                        }
+                    }
+                }
             }
         }
     }

@@ -70,6 +70,12 @@
                 overflow: hidden;
                 width: 420px;
                 height: 570px;
+                transition: 0.5S;
+
+                &:hover{
+                    transform: translate(-25px, -25px);
+                    transition: 0.5S;
+                }
 
                 img{
                     width: 100%;
