@@ -112,7 +112,7 @@ header nav .container .menu .menu-items {
   margin-top: 0.5rem;
 }
 .main-index section .div-instrument-index .img-instrument-index p {
-  margin: 0 1vw 5vw 1vw;
+  margin: 0 1vw 15px 1vw;
   font-size: 1vw;
 }
 .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -369,7 +369,7 @@ footer section .footer-list ul li {
     margin-top: 0.5rem;
   }
   .main-index section .div-instrument-index .img-instrument-index p {
-    margin: 0 1vw 5vw 1vw;
+    margin: 0 1vw 15px 1vw;
     font-size: 1.8vw;
   }
   .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -460,7 +460,7 @@ footer section .footer-list ul li {
     margin-top: 0.5rem;
   }
   .main-index section .div-instrument-index .img-instrument-index p {
-    margin: 0 1vw 5vw 1vw;
+    margin: 0 1vw 15px 1vw;
     font-size: 1.8vw;
   }
   .main-index section .div-instrument-index .img-instrument-index .button-instrument-index {
@@ -869,10 +869,10 @@ footer section .footer-list ul li {
     gap: 8vw;
   }
   footer section .div-footer h3 {
-    font-size: 5.8vw;
+    font-size: 5.7vw;
   }
   footer section .div-footer p {
-    font-size: 4.8vw;
+    font-size: 4.7vw;
   }
   footer section .footer-list ul {
     display: flex;
